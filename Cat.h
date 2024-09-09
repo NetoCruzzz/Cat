@@ -8,3 +8,10 @@
 // create two Cat objects
 
 // Access the first cat's name and set it to "Samward"
+
+class Cat {
+  public:
+      string name;
+      int age;
+      bool isSleepy;
+};
