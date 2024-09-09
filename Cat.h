@@ -54,4 +54,9 @@ class Cat {
         isSleepy = true;
         cout << "yay! We made a cat named " << name << endl;
       }
+      
+      class exam {
+        exam(int score = 0) {
+          
+        }
 };
