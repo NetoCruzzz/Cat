@@ -1,4 +1,8 @@
-//Define a class Cat with the following attributes:
+// Construction V. Methods V. Funciton
+
+// Construction - has the exact same name as the class
+
+// Define a class Cat with the following attributes:
 // name
 // age (whole number)
 // isSleepy (true or false)
@@ -29,4 +33,25 @@ class Cat {
         cout << name << " says: meow." << endl;
       }
       
+      // Define a function birthday()
+      	// which will increase the cat's age by one
+      void birthday() {
+        age++; // I was initially trying to do a for loop... Take the question LITERALLY !!
+      }
+      
+      // Define a constructor for the Cat class
+      	// it has input parameters (not console input)
+        // name of the cat
+        // ag of the cat
+      // this funciton should set the name and age of any new
+      	// Cat object
+        // and also set isSleepy to true (not a parameter)
+      // lastly, this should print a confirmation message
+      // **Add a default value for name and age
+      Cat(string inName = "Namey", int inAge = 3) {
+        name = inName;
+        age = inAge;
+        isSleepy = true;
+        cout << "yay! We made a cat named " << name << endl;
+      }
 };
