@@ -1,0 +1,54 @@
+// Define a function plusOne()
+void plusOne(int &x) {
+	x += 1;
+}
+	//input:an integer
+	//returns: nothing
+	//task: the function should add one to the input object
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// declare an integer object, initialize with a value
+	int a = 10;
+	int monkey = 99;
+	// print the value
+	cout << a << endl;
+
+// Reference
+	// Reference is the address location of an object to memory of using the identifie
+	// run the plusOne() function on it
+	plusOne(a);
+	
+	// print the value (can you guess what the value will be?)
+	cout << "after function" << a << endl;
+
+	cout << "the address of monkey is: " << &monkey << endl;
+
+// go to the plusOne() funciton and print the address of x in that function
+	// before adding one
+
+// declare a pointer to an integer, ptr
+	int *ptr; // pinter object to any integer
+// whitespace doesn't matter
+	//int * ptr
+	// int* ptr
+// assign ptr with a new address
+	//ptr = ...
+// ptr should be assigned with the address of x
+
+	ptr = &x;
+// print out the address stored int in x
+// printing ptr gives us address stored in ptr
+// printing &ptr, giivs us the location of ptr itself in memory
+	cout << "The address stored in ptr: " << ptr << endl;
+
+	int *ptr2;
+	ptr = &monkey;
+
+}
